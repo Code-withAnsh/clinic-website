@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url('https://deep-image.ai/blog/content/images/size/w1600/2022/08/magic-g1db898374_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+
+}
+.doctor-card{
+    
+    background-color: white;
+    width: 89%;
+    max-width: 450px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgb(0,0,0,0.2);
+    position: relative;
+    margin-top: 20px;
+    min-height: 550px;
+    
+}
+.clinic-logo{
+    width:150px ;
+    height: 150px;
+    border-radius: 40%;
+    margin-bottom: 10px;
+
+}
+.doctor-card h1{
+    
+    font-size: 30px;
+    color: #333;
+
+}
+.doctor-card p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #555;
+}
+.contact-card{
+    width: 90%;
+    max-width: 450px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 35px;
+    /*position: relative;*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   /* margin: 20px auto;
+    height: 430px;
+    top: -85px;
+    margin-left: 35px;*/
+    text-align: center;
+    margin-top: 20px;
+    height: 619px;
+    font-size: 25px;
+   
+
+}
+.contact-buttons{
+    position: absolute;
+    bottom: -1px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+
+
+}
+.call-button{
+    position: relative;
+    margin-right: 260px;
+}
+.call-button img, .whatsapp-button img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 10000px;
+    margin: 20px auto;
+   
+}
+.contact-card {
+    width: 90%;
+    max-width: 450px;
+    background: #f5f5f5;
+    padding: 30px 20px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Subtle spacing and size for each info line */
+.contact-card .clinic-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 15px;  /* 20px from top, 15px below */
+}
+
+.contact-card .phone-number {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.contact-card .clinic-address {
+    font-size: 25px;
+    margin: 5px 0 25px;
+}
+
+/* Button Style */
+.add-contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.add-contact-button:hover {
+    background-color: #0056b3;
+}
+
+.info-card{
+    background: white;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 0 40x 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 18px;
+    height: 580px;
+    width: 26%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.info-card img {
+    width: 100%;
+    height: 250px;  /* ✅ Image ki height */
+    object-fit: cover; /* Image ko fit karne ke liye */
+    border-radius: 10px;
+}
+
+.info-card h3 {
+    margin: 10px 0;
+    font-size: 35px;
+    color: #333;
+}
+
+.info-card p {
+    font-size: 26px;
+    color: #555;
+}
+@media (max-width: 1024px) {
+    .info-card {
+        width: 45%;
+    }
+}
+
+/* ✅ Mobile pe ek row me 1 card */
+@media (max-width: 768px) {
+    .info-card {
+        width: 90%;
+    }
+}
+.map-section {
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.map-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.open-map-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.open-map-btn:hover {
+    background-color: #0056b3;
+}
+.gallery-section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+.timing-section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.timing-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.timing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+}
+
+.day-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 5px solid #28a745;
+}
+
+.day-card:hover {
+    transform: translateY(-5px);
+}
+
+.day-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.day-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Monday Closed Style */
+.day-card.closed {
+    border-left: 5px solid red;
+    background-color: #ffe5e5;
+}
+.day-card.closed p {
+    color: red;
+    font-weight: bold;
+}
+.contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px; /* 2-3 line gap */
+    color: #222;
+}
+
+.clinic-details {
+    text-align: center;
+}
+.clinic-name{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+
+.clinic-name,
+.phone-number,
+.clinic-address {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.add-contact-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.add-contact-button:hover {
+    background-color: #218838;
+}
+.clinic-banner img {
+    width: 80%;
+    height: 1300px;
+    display: block;
+    margin: 2rem auto 0 auto; /* Top margin + auto for horizontal centering */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
