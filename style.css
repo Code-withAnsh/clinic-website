@@ -81,13 +81,6 @@ body{
 
 
 }
-contact-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-}
 .call-button{
     position: relative;
     margin-right: 260px;
@@ -115,23 +108,6 @@ contact-row {
       padding: 0 30px;
     }
   }
-@media (max-width: 768px) {
-  .call-button img,
-  .whatsapp-button img {
-    width: 50px;
-    height: 50px;
-  }
-}
-.add-contact {
-  background-color: #28a745;
-  color: white;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 25px;
-  font-size: 16px;
-}
-
-
   
 
 .card-container{
@@ -375,7 +351,14 @@ contact-row {
     margin-bottom: 15px;
     color: #333;
 }
-
+.contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
 .add-contact-button {
     display: inline-block;
     margin-top: 10px;
@@ -388,6 +371,14 @@ contact-row {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease;
 }
+.add-contact {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 16px;
+  }
 
 .add-contact-button:hover {
     background-color: #218838;
@@ -401,4 +392,5 @@ contact-row {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
+ 
  
