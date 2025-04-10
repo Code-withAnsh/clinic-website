@@ -81,6 +81,13 @@ body{
 
 
 }
+contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
 .call-button{
     position: relative;
     margin-right: 260px;
@@ -115,6 +122,15 @@ body{
     height: 50px;
   }
 }
+.add-contact {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
 
   
 
