@@ -86,15 +86,28 @@ body{
     margin-right: 240px;
     margin-bottom: 19px;
 }
-.call-button img, .whatsapp-button img{
-    width: 40px;
-    height: 40px;
 
-}
 .call-button, .whatsapp-button{
     margin-left: -10px;
 
 }
+@media (max-width: 768px) {
+  .call-button {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .whatsapp-button {
+    margin-right: 10px;
+  }
+
+  .contact-buttons {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
 
 .card-container{
     display: flex;
