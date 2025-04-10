@@ -73,7 +73,7 @@ body{
 }
 .contact-buttons{
     position: absolute;
-    bottom: -3px;
+    bottom: -5px;
     width: 100px;
     display: flex;
     justify-content: space-between;
@@ -84,11 +84,15 @@ body{
 .call-button{
     position: relative;
     margin-right: 240px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
 }
 .call-button img, .whatsapp-button img{
     width: 40px;
     height: 40px;
+
+}
+.call-button, .whatsapp-button{
+    margin-left: -10px;
 
 }
 
