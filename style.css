@@ -92,6 +92,9 @@ body{
     height: 40px;
 
 }
+.whatsapp-button img{
+    z-index: 1000;
+}
 @media (max-width: 768px) {
     .call-button {
       margin-right: 0;
@@ -108,7 +111,12 @@ body{
       padding: 0 30px;
     }
   }
-  
+  @media (max-width: 768px) {
+  .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 .card-container{
     display: flex;
@@ -391,6 +399,8 @@ body{
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+/* Default for desktop */
+
   
  
  
