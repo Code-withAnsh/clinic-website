@@ -189,7 +189,7 @@ body{
     box-shadow: 0 40x 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     font-size: 18px;
-    max-height: 720px;
+    max-height: 750px;
     width: 26%;
     min-width: 250px;
     display: flex;
@@ -212,7 +212,7 @@ body{
 }
 
 .info-card p {
-    font-size: 26px;
+    font-size: 23px;
     color: #555;
 }
 @media (max-width: 1024px) {
