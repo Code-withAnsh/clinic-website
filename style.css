@@ -197,6 +197,10 @@ body{
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
+    flrx-direction: column;
+}
+.info-card .card-content{
+    overflow-y: auto;
 }
 .info-card img {
     width: 100%;
