@@ -68,23 +68,26 @@ body{
     margin-top: 20px;
     height: 619px;
     font-size: 25px;
+  
+    
    
 
 }
 .contact-buttons{
     position: absolute;
-    bottom: 10px;
-    width: 100px;
+    bottom: 20px;
     display: flex;
     justify-content: space-between;
-    padding: 0 18px;
+    padding: 0 20px;
+    left: 0;
+    right: 0;
+    
 
 
 }
 .call-button{
     position: relative;
-    margin-right: 260px;
-    margin-bottom: 19px;
+  
 
 }
 .call-button img, .whatsapp-button img{
@@ -117,6 +120,13 @@ body{
     height: 30px;
   }
 }
+@media (max-width: 768px) {
+  .contact-buttons img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
 .card-container{
     display: flex;
